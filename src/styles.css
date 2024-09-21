@@ -1,0 +1,38 @@
+/* Estilos para la estructura CSS Grid */
+.my-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.item {
+    background-color: #79e0fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.item h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.item p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Estilo adicional para footer */
+footer {
+    margin-top: 40px;
+    background-color: #ee7690;
+}
